@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <audio controls>
+    <div class="audio-box">
+        <audio class="audio" controls>
             <slot></slot>
             您的浏览器不支持 audio 元素。
         </audio>
@@ -11,6 +11,12 @@
 
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+.audio-box {
+    margin: 8px 0;
+}
+.audio {
+    display: block;
+    width: 100%;
+}
 </style>

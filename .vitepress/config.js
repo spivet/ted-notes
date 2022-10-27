@@ -9,28 +9,33 @@ export default {
     themeConfig: {
         nav: [
             {
-                text: 'TED-Ed',
-                activeMatch: `^/(ted-ed)/`,
-                items: [
-                  { text: 'Elementary', link: '/ted-ed/elementary/001' },
-                  { text: 'Tutorial', link: '/tutorial/' },
-                  { text: 'Examples', link: '/examples/' },
-                  { text: 'Quick Start', link: '/guide/quick-start' },
-                ]
-              },
-              {
-                text: 'API',
-                activeMatch: `^/api/`,
-                link: '/api/'
-              },
+              text: 'Elementary',
+              activeMatch: `^/elementary/`,
+              link: '/elementary/001'
+            },
+            {
+              text: 'Middle School',
+              activeMatch: `^/middle/`,
+              link: '/middle/'
+            },
+            {
+              text: 'High School',
+              activeMatch: `^/hight/`,
+              link: '/hight/'
+            },
+            {
+              text: 'College',
+              activeMatch: `^/college/`,
+              link: '/college/'
+            },
         ],
         sidebar: {
-            '/ted-ed/elementary/': [
+            '/elementary/': [
                 {
                   text: 'Week 1',
                   items: [
-                    { text: 'Can you solve the fortress riddle?', link: '/ted-ed/elementary/001' },
-                    { text: 'Can you ?', link: '/ted-ed/elementary/002' },
+                    { text: 'Can you solve the fortress riddle?', link: '/elementary/001' },
+                    { text: 'Can you ?', link: '/elementary/002' },
                   ]
                 }
             ]
