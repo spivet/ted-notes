@@ -8,6 +8,6 @@ pages:
     - yarn build
   artifacts:
     paths:
-      - dist
+      - public
   only:
     - main

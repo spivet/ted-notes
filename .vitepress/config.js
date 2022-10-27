@@ -1,7 +1,7 @@
 export default {
     lang: 'en-US',
     srcDir: './src',
-    outDir: './dist',
+    outDir: './public',
     title: 'TED Notes',
     description: 'Lessons worth sharing!',
 
