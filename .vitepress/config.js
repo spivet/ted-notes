@@ -35,9 +35,12 @@ export default {
                   text: 'Week 1',
                   items: [
                     { text: 'Can you solve the fortress riddle?', link: '/elementary/001' },
-                    { text: 'Can you ?', link: '/elementary/002' },
+                    { text: 'The myth of the original star-crossed lovers', link: '/elementary/002' },
+                    { text: 'How pigeons took over the world', link: '/elementary/003' },
+                    { text: 'The myth of the moon goddess', link: '/elementary/004' },
+                    { text: 'The myth of Anansi, the trickster spider', link: '/elementary/005' },
                   ]
-                }
+                },
             ]
         }
     }
