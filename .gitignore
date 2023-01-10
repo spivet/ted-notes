@@ -93,3 +93,4 @@ dist/
 
 # Serverless directories
 .serverless/
+script/output/**
