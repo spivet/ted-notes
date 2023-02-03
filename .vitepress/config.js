@@ -1,3 +1,5 @@
+import head from './head';
+
 export default {
     lang: 'en-US',
     base: '/ted-notes/',
@@ -5,20 +7,7 @@ export default {
     outDir: './dist',
     title: 'TED Notes',
     description: 'Lessons worth sharing!',
-    head: [
-      [
-        'script',
-        {},
-        `var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?d53b187ff570da628cb1150db22bc250";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-        `
-      ]
-    ],
+    head,
 
     themeConfig: {
         nav: [
@@ -56,6 +45,6 @@ export default {
                   ]
                 },
             ]
-        }
+        },
     }
 }
