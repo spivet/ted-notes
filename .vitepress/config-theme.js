@@ -31,6 +31,8 @@ export default {
                 { text: 'How pigeons took over the world', link: '/elementary/003' },
                 { text: 'The myth of the moon goddess', link: '/elementary/004' },
                 { text: 'The myth of Anansi, the trickster spider', link: '/elementary/005' },
+                { text: 'The tragic myth of the Sun God\'s son', link: '/elementary/006' },
+                { text: 'Why do your jeans wear out so quickly?', link: '/elementary/007' },
               ]
             },
         ]
